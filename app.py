@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from send_mail import send_email
 
 app = Flask(__name__)
-ENV = "dev"
+ENV = "prod"
 
 if (ENV == "dev"):
     app.debug = True
